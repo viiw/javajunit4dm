@@ -22,7 +22,7 @@ public class Main {
         List<Integer> initialList;
         initialList = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
 
-        System.out.println("Results: " + partitionService.partition(initialList, 6).toString());
+        System.out.println("Results: " + partitionService.partition(initialList, 2).toString());
         System.out.println("Results: " + partitionService.partition(initialList, 3).toString());
         System.out.println("Results: " + partitionService.partition(initialList, 1).toString());
 
